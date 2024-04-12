@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.linuxgods.kreiger.idea.readable.whitespace</id>
+
+    <name>Readable Whitespace</name>
+
+    <vendor>Christoffer Hammarström</vendor>
+
+    <description><![CDATA[
+        <p>Inserts artificial blank lines above return statements, and after right braces.</p>
+        ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <codeInsight.inlayProvider
+                implementationClass="com.linuxgods.kreiger.intellij.idea.readable.whitespace.ReadableWhitespaceInlayProvider"
+                language="JAVA"/>
+    </extensions>
+</idea-plugin>
