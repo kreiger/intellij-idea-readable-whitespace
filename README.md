@@ -1,6 +1,6 @@
 # Readable Whitespace
 
-An IntelliJ IDEA plugin that inserts artificial blank lines to make code more readable.
+An IntelliJ IDEA plugin that inserts artificial blank lines above return statements and below closing braces, which is considered more "readable" by some.
 
 ## Build
 
